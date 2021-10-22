@@ -1,0 +1,83 @@
+html{
+    background-color: #FFF9F6FA;
+    min-width: 100%;
+
+}
+.container{
+    margin: 10px auto;
+    padding-left: 30px;
+    border-radius: 30px;
+    width: 90%;
+    background-color: #FFF0CEF6 ;
+    min-height: 800px;
+    text-align: center;
+}
+.title{
+    margin: 5px auto;
+    padding-top: 5px;
+    font-size: 15px;
+    color: black;
+
+}
+
+.add-form{
+    padding: 20px;
+    margin-bottom: 10px;
+    Margin:3px auto;
+    text-align: center;
+    background-color: #FFF9F6FA;
+    width: 80%;
+    height: 70px;
+    border-radius: 30px;
+}
+.library {
+    padding: 30px;
+    margin-top: 10px;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    width: 85%;
+}
+.library .book{
+    background-color: rgba(218, 112, 214, 0.64);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 3px;
+}
+.book-image{
+    width: 75%;
+    height:80%;
+}
+.h3,.h5{
+    padding: 3px;
+    margin: 5px;
+    font-size: 3px;
+    text-justify: auto;
+}
+
+#submit{
+    padding: 6px 12px;
+    margin: 20px;
+    background-color: Orchid;
+    color: #FFF0CEF6;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    display: inline-block;
+    width: 20%;
+    font: s;
+    font-size: 18px;
+}
+#image{
+    background-color: white;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+.sups{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 10px 12px;
+    cursor: pointer;
+}
